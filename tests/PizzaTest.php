@@ -5,7 +5,7 @@ class PizzaTest extends TestCase {
     private $conn;
 
     protected function setUp(): void {
-        $this->conn = new mysqli("localhost", "root", "81160596", "bd_pizzaria");
+        $this->conn = new mysqli("localhost", "root", "", "bd_pizzaria"); //manter de acordo com as informações de conexão que estão no Conn.php
         if ($this->conn->connect_error) {
             die("Conexão falhou: " . $this->conn->connect_error);
         }

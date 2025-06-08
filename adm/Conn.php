@@ -1,11 +1,12 @@
 <?php
 
+    //configurações para conexão com o banco de dados MySQL
     class Conn{
-        public $host = "localhost";
-        public $user = "root";
-        public $pass = "81160596";
-        public $dbname = "bd_pizzaria";
-        public $port = 3306;
+        public $host = "localhost"; //endereço do servidor do banco de dados (normalmente 'localhost' em ambiente local)
+        public $user = "root"; //nome de usuário do banco de dados (alterar caso preciso)
+        public $pass = "";  //senha do usuário do banco (acrescentar caso preciso)
+        public $dbname = "bd_pizzaria"; //nome do banco de dados que será utilizado (colocar o nome da forma que for criado no phpMyAdmin)
+        public $port = 3306; //porta padrão
         public $connect = null;
 
         public function conectar(): bool|PDO{

@@ -32,12 +32,12 @@ O objetivo principal da aplicação é facilitar a administração de um cardáp
 - **Linguagem de Programação**: PHP 7.4+
 - **Banco de Dados**: MySQL
 - **Frameworks / Bibliotecas**:
-    Bootstrap (para estilização básica da interface);
-    PHPUnit (para testes automatizados).
+    - Bootstrap (para estilização básica da interface);
+    - PHPUnit (para testes automatizados).
 - **Outros**:
-    HTML5, CSS3 e JavaScript para construção da interface;
-    Git para versionamento:
-    XAMPP para ambiente de servidor local (Apache + MySQL).
+    - HTML5, CSS3 e JavaScript para construção da interface;
+    - Git para versionamento;
+    - XAMPP para ambiente de servidor local (Apache + MySQL).
 
 ---
 
@@ -83,11 +83,11 @@ O objetivo principal da aplicação é facilitar a administração de um cardáp
 
 #### Requisitos do sistema
 
-- Sistema operacional: Windows 10 ou superior
-- PHP 7.4 ou superior
-- MySQL 5.7 ou superior
-- Navegador atualizado (Chrome, Firefox, etc.)
-- XAMPP ou outro ambiente de servidor com suporte a PHP e MySQL
+- Sistema operacional: Windows 10 ou superior;
+- PHP 7.4 ou superior;
+- MySQL 5.7 ou superior;
+- Navegador atualizado (Chrome, Firefox, etc.);
+- XAMPP ou outro ambiente de servidor com suporte a PHP e MySQL.
 
 ---
 
@@ -112,18 +112,18 @@ O objetivo principal da aplicação é facilitar a administração de um cardáp
 
 #### Práticas de Código Limpo Aplicadas
 
-- Separação de responsabilidades (arquivos para conexão, lógica e visual separadas)
-- Código comentado em pontos estratégicos para melhor entendimento
-- Uso de funções e reaproveitamento de trechos comuns
-- Estrutura de pastas organizada (`adm/`, `img/`, `tests/`)
+- Separação de responsabilidades (arquivos para conexão, lógica e visual separadas);
+- Código comentado em pontos estratégicos para melhor entendimento;
+- Uso de funções e reaproveitamento de trechos comuns;
+- Estrutura de pastas organizada (`adm/`, `img/`, `tests/`).
 
 ---
 
 #### Testes Automatizados
 
-- Implementado teste no banco de dados com PHPUnit
-- Os testes validam a conexão, a inserção, verificação e remoção de dados no banco
-- Testes são limpos após execução para não poluir o banco de dados
+- Implementado teste no banco de dados com PHPUnit;
+- Os testes validam a conexão, a inserção, verificação e remoção de dados no banco;
+- Testes são limpos após execução para não poluir o banco de dados.
 
 ---
 

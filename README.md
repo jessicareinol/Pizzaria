@@ -32,12 +32,12 @@ O objetivo principal da aplicação é facilitar a administração de um cardáp
 - **Linguagem de Programação**: PHP 7.4+
 - **Banco de Dados**: MySQL
 - **Frameworks / Bibliotecas**:
-    Bootstrap (para estilização básica da interface)
-    PHPUnit (para testes automatizados)
+    Bootstrap (para estilização básica da interface);
+    PHPUnit (para testes automatizados).
 - **Outros**:
-    HTML5, CSS3 e JavaScript para construção da interface
-    Git para versionamento
-    XAMPP para ambiente de servidor local (Apache + MySQL)
+    HTML5, CSS3 e JavaScript para construção da interface;
+    Git para versionamento:
+    XAMPP para ambiente de servidor local (Apache + MySQL).
 
 ---
 
@@ -45,7 +45,7 @@ O objetivo principal da aplicação é facilitar a administração de um cardáp
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/Pizzaria.git
+   git clone https://github.com/jessicareinol/Pizzaria.git
    ```
 
 2. Copie a pasta do projeto para a pasta `htdocs` do XAMPP:
